@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-22T16:10:01 IST" name="Stand Alone Test " finished-at="2024-01-22T16:15:21 IST" duration-ms="319176">
+    <groups>
+    </groups>
+    <test started-at="2024-01-22T16:10:01 IST" name="End to End Test with 3 data sets" finished-at="2024-01-22T16:15:21 IST" duration-ms="319176">
+      <class name="com.pageobject.Tests.LinkTests">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.pageobject.Tests.LinkTests@6be968ce]" started-at="2024-01-22T16:11:09 IST" name="launchApplication" finished-at="2024-01-22T16:11:28 IST" duration-ms="19533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="linkStatusCodeTest()[pri:1, instance:com.pageobject.Tests.LinkTests@6be968ce]" started-at="2024-01-22T16:11:28 IST" name="linkStatusCodeTest" finished-at="2024-01-22T16:11:54 IST" duration-ms="26001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkStatusCodeTest -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.pageobject.Tests.LinkTests@6be968ce]" started-at="2024-01-22T16:11:54 IST" name="closebrowser" finished-at="2024-01-22T16:11:55 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.pageobject.Tests.LinkTests@6be968ce]" started-at="2024-01-22T16:11:55 IST" name="launchApplication" finished-at="2024-01-22T16:12:04 IST" duration-ms="9934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="linkOpeningTest()[pri:2, instance:com.pageobject.Tests.LinkTests@6be968ce]" started-at="2024-01-22T16:12:04 IST" name="linkOpeningTest" finished-at="2024-01-22T16:12:11 IST" duration-ms="6091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkOpeningTest -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.pageobject.Tests.LinkTests@6be968ce]" started-at="2024-01-22T16:12:11 IST" name="closebrowser" finished-at="2024-01-22T16:12:11 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.pageobject.Tests.LinkTests@6be968ce]" started-at="2024-01-22T16:12:11 IST" name="launchApplication" finished-at="2024-01-22T16:12:22 IST" duration-ms="10843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="linkTitleVerifyTest()[pri:3, instance:com.pageobject.Tests.LinkTests@6be968ce]" started-at="2024-01-22T16:12:22 IST" name="linkTitleVerifyTest" finished-at="2024-01-22T16:15:20 IST" duration-ms="178289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkTitleVerifyTest -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.pageobject.Tests.LinkTests@6be968ce]" started-at="2024-01-22T16:15:20 IST" name="closebrowser" finished-at="2024-01-22T16:15:21 IST" duration-ms="595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.pageobject.Tests.LinkTests -->
+      <class name="com.pageobject.Tests.StandAloneTest3">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.pageobject.Tests.StandAloneTest3@606e4010]" started-at="2024-01-22T16:10:02 IST" name="launchApplication" finished-at="2024-01-22T16:10:17 IST" duration-ms="15447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="EndtoEndTest(java.util.HashMap)[pri:0, instance:com.pageobject.Tests.StandAloneTest3@606e4010]" started-at="2024-01-22T16:10:17 IST" name="EndtoEndTest" data-provider="getdata" finished-at="2024-01-22T16:11:08 IST" duration-ms="51035" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{actualProName=Men's Black I Need Some Space Teddy Graphic Printed T-shirt, search=t shirts for men}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndtoEndTest -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.pageobject.Tests.StandAloneTest3@606e4010]" started-at="2024-01-22T16:11:08 IST" name="closebrowser" finished-at="2024-01-22T16:11:09 IST" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.pageobject.Tests.StandAloneTest3 -->
+    </test> <!-- End to End Test with 3 data sets -->
+  </suite> <!-- Stand Alone Test  -->
+</testng-results>

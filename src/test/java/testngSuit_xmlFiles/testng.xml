@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Stand Alone Test ">
+<listeners>
+
+<listener class-name="test_components.Listeners"></listener>
+
+
+</listeners>
+  <test thread-count="5" name="End to End Test with 3 data sets">
+    <classes>
+      <class name="com.pageobject.Tests.StandAloneTest3"/>
+		<class name="com.pageobject.Tests.LinkTests"></class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
